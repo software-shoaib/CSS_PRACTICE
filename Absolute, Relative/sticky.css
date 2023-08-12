@@ -1,0 +1,31 @@
+.navigation{
+background-color: chartreuse;
+text-align: center;
+font-size: xx-large;
+position: sticky;
+top: 5px;
+transition: 4s;
+
+}
+
+
+.navigation:hover{
+    opacity: 0.1;
+           
+}
+
+.text{
+    background-color: brown;
+    width:100hv;
+    height 100%;
+    /*column-count: 2;*/
+    column-gap: 300px;
+    column-rule: 5px solid blue;
+    column-width: 500px;     
+     
+   
+}
+
+.h2{
+    column-span:all;
+}

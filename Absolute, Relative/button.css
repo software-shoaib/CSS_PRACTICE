@@ -1,0 +1,25 @@
+.box{
+width: 300px;
+height: 400px;
+border: 2px solid grey;
+margin: auto;
+margin-top: 50px;
+position: relative;
+}
+
+.buton{
+    width: 100%;
+    font-size: 30px;
+    background-color: rgba(0,0,0,0.6);
+    color: white;
+    position: absolute;
+    left: 0;
+   bottom: -40px;
+   opacity: 0; 
+   transition: 1s;
+}
+
+.box:hover .buton{
+   bottom: 0px;
+   opacity: 1;
+}
