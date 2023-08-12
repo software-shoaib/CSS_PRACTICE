@@ -1,0 +1,41 @@
+.main {
+    width: 500px;
+    height: 500px;
+    border-style: groove;
+    background-color: chartreuse;
+}
+
+#row1 {
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+#row2{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+        float: right;
+}
+
+#ROW3 {
+    width: 250px;
+    height: 125px;
+    background-color: darkred;
+    
+}
+
+#ROWa{
+    width: 250px;
+    height: 125px;
+    background-color: yellow;
+    float: right ;
+
+}
+
+#ROWb{
+    width: 250px;
+    height: 125px;
+    background-color: white;
+    float: left;
+}

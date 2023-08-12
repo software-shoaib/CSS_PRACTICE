@@ -1,0 +1,24 @@
+
+.FRAME{ width: 300px;
+height: 200px;
+background-color: black; }
+
+#row1 {width:300px;
+height: 100;
+background-color: brown
+;}
+
+#row2 { width: 300px;
+height: 100px;
+background-color: yellow;}
+
+.col1 { width: 150;
+height: 200;
+float: left;
+background-color: blue;}
+
+.col2 { width: 150;
+height: 200;
+float: left;
+background-color: red;}
+

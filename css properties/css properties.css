@@ -1,0 +1,82 @@
+
+
+.main {
+    width: 700px;
+    height: 300px;
+    background-color: orange;
+    margin: 30px;
+    padding: 50px;
+    border: 5px solid green;
+    border-radius: 100px;
+   /* line-height: 30px; */
+
+background-image: url(123.jpeg);
+background-position: right;
+background-size: 100%;
+box-shadow: 10px 10px 8px grey;
+/*cursor: pointer;*/
+overflow: auto;
+opacity: 0.8 ;
+
+
+}
+
+p {
+    line-height: 1.8;
+    color: white;
+    cursor: pointer;
+    
+} 
+
+ul {
+
+    list-style-type: circle;
+
+} 
+
+
+.wrapper{
+    width: 400PX;
+    height: 400PX;
+    background-color:blue ;
+    margin-bottom: 10px;
+    position: relative;
+    transform: translate(30px,30px);
+    transition: background 6s ease;    
+
+}
+
+.inner {
+    width: 50px;
+    height: 50px;
+    background: black;
+    position: absolute;
+    bottom: 375px;
+    right: -20px;
+    border-radius: 300px;
+    transition: background  7s ease;
+}
+
+.inner2 {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    bottom: -25px;  
+    left: -20px;
+    border-radius: 300px;
+    
+}
+p {
+    line-height: 15px;
+    text-align: center;
+
+}
+
+.wrapper:hover {
+    background: red;
+}
+
+input:focus {
+  border: 2px solid green;  
+}

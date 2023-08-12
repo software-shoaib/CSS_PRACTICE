@@ -1,0 +1,57 @@
+.box-container{
+    width: 600px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto; 
+    position: relative;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    top: 00px;
+    left: 00px;
+    animation-name: box;
+    animation-duration: 5s;
+    animation-iteration-count: 3;
+    animation-fill-mode: backward;
+    animation-delay: 2s;
+    animation-direction: reverse;
+}
+
+@keyframes box{
+ 
+    0%{
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    }   
+
+    25%{
+    top: 0px;
+    left: 400px;
+    background-color: yellow;
+    }
+
+    50%{
+        top: 400px;
+        left: 400px;
+        background: blue;
+       
+    }
+
+    75%{
+        top: 400px;
+        right: 430px;
+        background-color: green;
+       
+    }
+   100%{
+
+    top:  00px;
+    left: 00px;
+    background-color: red;
+   }   
+}
